@@ -1,0 +1,117 @@
+/* namu_conBox.css */
+
+/* #conBox ---------------------------------------------------------- */
+
+#conBox{width:100%;  height:41.66666666666667vw; max-height:600px;}
+  .content_text{ position: relative; width: 100%; height: 34.72222222222222vw;}
+    
+  .move_area { 
+      float: left; width: 50%; height: 100%;
+      margin: 0 auto;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+    .move_area h3 {font-size: 30px; padding-bottom: 10px;}
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding-top: 50%;
+      bottom: 0;
+      background-color: #000;
+    }
+    
+    iframe {
+      z-index: 1;
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-height: 500px;
+    }
+
+    .about_area { 
+      position: relative;
+      float: left; width: 50%; height: 100%; 
+      background-image: url(../../../img/franchise.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .about_area h3 {
+      font-size: 30px; color: #fff; 
+      text-align: center;
+      padding-bottom: 30px;
+      text-shadow: 2px 2px 2px #333;
+    }
+    .about_text_box {
+      width: 100%; height: auto; 
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      margin: auto;
+    }
+
+    .about_area a {
+       display: block; width: 70px; height: 70px; 
+       margin: auto;
+       border: 4px solid #fff;
+       transition: all 200ms ease;
+      }
+      .about_area i {text-align: center; line-height: 40px; font-size: 40px; color: #fff; }
+      .about_area a:hover {  
+        background:  rgba(28, 29, 29, 0.6); 
+      }
+      
+    #cross {
+      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
+      background:  #fff;
+      height: 40px;
+      position: relative;
+      width: 4px;
+    }
+
+    #cross:after {
+      background:  #fff;
+      content: "";
+      height: 4px;
+      left: -18px;
+      position: absolute;
+      top: 18px;
+      width: 40px;
+    }
+
+
+  #con_menu_box{width: 100%; height:41.66666666666667vw; 
+    max-height: 700px;
+    background-color: #EEECE0;
+  }
+
+  #con_menu_box h2 {font-size: 3rem; padding: 2.604166666666667vw 0;}
+  .con_menu_area {
+    width: 100%; max-width: 1680px; height: 100%; 
+    padding: 2.604166666666667vw; box-sizing: border-box; margin: auto;
+  }
+
+  .con_menu_area a {
+       display: block; width: 160px; height: 40px; 
+       margin-top: 20px;
+       line-height: 40px;
+       text-indent: 20px;
+       border: 2px solid #444;
+       transition: all 200ms ease;
+      }
+
+      .con_menu_text { float: left; width: 50%; height: auto; margin-top: 5%; }
+      .con_menu_text a {text-align: center;}
+      .con_menu_text a:hover {background-color: #A3CC45;}
+      .con_menu_text h2 { font-size: 40px;}
+      .con_menu_img { float: right; width: 50%; height: auto; 
+        padding: 2.604166666666667vw; box-sizing: border-box;}
+      .con_menu_img img{width: 100%; max-width: 100%; height: auto; 
+        /* max-height: 500px; */
+      }
