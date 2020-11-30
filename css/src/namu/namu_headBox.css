@@ -45,6 +45,6 @@
     text-align:left; text-indent:10px; color:#fff; background-color: #333;}
   #navBox dd>a{display: block; 
     width: 100%; height:auto; padding:5px; margin-bottom: 5px;} 
-  #navBox dd>a:hover{color: #333;}
+  #navBox dd>a:hover{color: #ddd;}
 
   .menu_btn {display: none;}
