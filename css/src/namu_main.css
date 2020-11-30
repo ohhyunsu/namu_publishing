@@ -77,8 +77,8 @@
 
   #navBox dt>a{ font-size:60px; text-transform:uppercase;
     display: block; width: 100%; height: 100%; text-align: center; line-height: 116px;}
-  #navBox dd{ width: 100%; height:auto; padding:36px 0;  font-size: 60px;
-    text-align:left; text-indent:32px; color:#fff; 
+  #navBox dd{ width: 100%; height:auto; padding:36px 0;  font-size: 60px; 
+    text-align:center; color:#fff; 
     background-color: rgba(0,0,0,0.0);}
   #navBox dd>a{display: block;
     width: 100%; height:auto; padding:5px; margin-bottom: 5px;} 
