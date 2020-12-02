@@ -4,18 +4,18 @@
   // navigation 내용을 담을 형식 설정
 
   var navBox = [ 
-    {'titleNav' : {'tname': 'COFFEENAMU', 'tlink':'http://naver.com','target':'_blank'},
-    'subNav'   : [{'sname':'BRAND STORY', 'slink':'http://xidoweb.com'}, 
-                  {'sname':'HISTORY',   'slink':'http://xidoweb.com'}] },
-    {'titleNav' : {'tname':'MENU','tlink':'http://naver.com','target':'_blank'},
-    'subNav'   : [{'sname':'COFFEENAMU ORIGINAL',           'slink':'http://w3.org'},
-                  {'sname':'COFFEENAMU PREMIUM',         'slink':'http://w3.org'},
-                  {'sname':'MENU STORY',   'slink':'http://w3.org'}] },
-    {'titleNav' : {'tname':'STORE','tlink':'http://naver.com','target':'_blank'},
-    'subNav'   : [{'sname':'STORE',   'slink':'http://daum.net'}] },
-    {'titleNav' : {'tname':'FRANCHISE','tlink':'http://naver.com','target':'_blank'},
-    'subNav'   : [{'sname':'CONTACT US',     'slink':'http://google.com'}, 
-                  {'sname':'PROCESS',   'slink':'http://google.com'}],    
+    {'titleNav' : {'tname': 'COFFEENAMU', 'tlink':'../html/coffeenamu.html','target':'_salf'},
+    'subNav'   : [{'sname':'BRAND STORY', 'slink':'../html/coffeenamu.html'}, 
+                  {'sname':'HISTORY',   'slink':'../html/coffeenamu.html'}] },
+    {'titleNav' : {'tname':'MENU','tlink':'../html/menu_namu.html','target':'_salf'},
+    'subNav'   : [{'sname':'COFFEENAMU ORIGINAL',           'slink':'../html/menu_namu.html'},
+                  {'sname':'COFFEENAMU PREMIUM',         'slink':'../html/menu_namu.html'},
+                  {'sname':'MENU STORY',   'slink':'../html/menu_namu.html'}] },
+    {'titleNav' : {'tname':'STORE','tlink':'../html/store.html','target':'_salf'},
+    'subNav'   : [{'sname':'STORE',   'slink':'../html/store.html'}] },
+    {'titleNav' : {'tname':'FRANCHISE','tlink':'../html/franchise.html','target':'_salf'},
+    'subNav'   : [{'sname':'CONTACT US',     'slink':'../html/franchise.html'}, 
+                  {'sname':'PROCESS',   'slink':'../html/franchise.html'}],    
   }];
   // console.log( navBox.length );
   // ================================================================
